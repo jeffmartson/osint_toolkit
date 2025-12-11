@@ -12,3 +12,4 @@ tweepy==4.9.0
 uvicorn==0.18.3
 email-validator==2.0.0
 openai==1.52.2
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
